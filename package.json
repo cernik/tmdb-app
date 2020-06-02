@@ -1,0 +1,17 @@
+{
+  "name": "tmdb-app",
+  "version": "1.0.0",
+  "description": "Monorepo sample for tmdb app client",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "yarn workspace mobile start"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "author": "ateqai",
+  "license": "MIT",
+  "private": true
+}
